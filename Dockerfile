@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR .
+WORKDIR /usr/src/claim_app
 COPY package*.json ./
 RUN npm install
 COPY . .
