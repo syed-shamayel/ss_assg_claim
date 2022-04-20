@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+console.log(`process.env`, process.env);
+
 var indexRouter = require('./routes/index');
 var claimRouter = require('./routes/claim');
 

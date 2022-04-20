@@ -1,0 +1,3 @@
+# Environment
+POLICY_SERVICE='localhost:8000'
+BILLING_SERVICE='localhost:3000'

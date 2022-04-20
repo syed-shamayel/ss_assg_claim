@@ -5,9 +5,12 @@ services:
     restart: always
     build: .
     ports:
-      - '3000:3000'
+      - '3030:3000'
     external_links:
       - mongo
+    environment:
+      - POLICY_SERVICE=google.com
+      - BILLING_SERVICE=google.com
   mongo:
     container_name: mongo
     image: mongo

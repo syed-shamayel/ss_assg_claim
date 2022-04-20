@@ -25,7 +25,7 @@ const ClaimSchema = new Schema({
     },
     billingId: {
         type: String,
-        required: false
+        required: true
     },
 });
 
